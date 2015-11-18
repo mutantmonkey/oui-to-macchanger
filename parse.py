@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-################################################################################
-# oui_to_macchanger.py - convert official oui.txt to macchanger format
-#
-# author: mutantmonkey <mutantmonkey@mutantmonkey.in>
-################################################################################
+
+# Copyright © 2012 mutantmonkey <mutantmonkey@mutantmonkey.in>
+# This program is free software. It comes without any warranty, to
+# the extent permitted by applicable law. You can redistribute it
+# and/or modify it under the terms of the Do What The Fuck You Want
+# To Public License, Version 2, as published by Sam Hocevar. See
+# the COPYING file for more details.
 
 import re
-
-__author__ = "mutantmonkey <mutantmonkey@mutantmonkey.in>"
-__license__ = "WTFPL"
 
 match = r'^([0-9A-F]{2})\-([0-9A-F]{2})\-([0-9A-F]{2})\s+\(hex\)\s+(.+)$'
 
